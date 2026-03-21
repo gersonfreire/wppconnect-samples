@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "github_repo": "https://github.com/gersonfreire/wppconnect-samples",
+  "updated_at": "2026-03-21T00:00:00Z",
+  "categories": [
+    {
+      "id": "bots",
+      "name": {
+        "pt": "Bots",
+        "en": "Bots",
+        "es": "Bots"
+      },
+      "description": {
+        "pt": "Exemplos de bots automatizados para WhatsApp",
+        "en": "Automated WhatsApp bot examples",
+        "es": "Ejemplos de bots automatizados para WhatsApp"
+      },
+      "icon": "Bot",
+      "samples": [
+        {
+          "id": "echobot",
+          "path": "bots/echobot",
+          "name": {
+            "pt": "Echo Bot",
+            "en": "Echo Bot",
+            "es": "Echo Bot"
+          },
+          "description": {
+            "pt": "Bot que repete tudo que o contato digitar",
+            "en": "Bot that echoes everything the contact types",
+            "es": "Bot que repite todo lo que el contacto escriba"
+          },
+          "language": "python",
+          "tags": ["python", "polling", "beginner"],
+          "files": [
+            { "name": "echobot.py", "type": "code", "language": "python" },
+            { "name": "README.md", "type": "readme" },
+            { "name": "requirements.txt", "type": "config" }
+          ]
+        }
+      ]
+    }
+  ]
+}
