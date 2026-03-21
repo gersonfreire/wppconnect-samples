@@ -7,13 +7,13 @@
 
 ---
 
-<a name="portugues"></a>
+`<a name="portugues"></a>`
 
 # Portugues
 
 ## O que e este bot?
 
-O **Echo Bot** e um exemplo simples de integracao com a plataforma **WPPConnect Admin**. Ele repete (ecoa) automaticamente todas as mensagens de texto recebidas em uma sessao WhatsApp conectada.
+O **Echo Bot** e um exemplo simples de integracao com a plataforma **WPPConnect Admin** [(clique aqui)](https://zapadmin.vilios.com.br "Zapadmin"). Ele repete (ecoa) automaticamente todas as mensagens de texto recebidas em uma sessao WhatsApp conectada.
 
 Este exemplo demonstra como:
 
@@ -52,7 +52,7 @@ Voce **nunca precisa** se comunicar diretamente com o WPPConnect Server. O backe
 ### Passo 1: Criar uma Conta na Plataforma
 
 1. Abra o navegador e acesse a plataforma WPPConnect Admin
-   - URL de exemplo: `https://zapi-admin.vilios.com.br` (ou a URL fornecida pelo seu administrador)
+   - URL de exemplo: `https://zapadmin.vilios.com.br` (ou a URL fornecida pelo seu administrador)
 2. Na tela de login, clique em **"Criar conta"** (ou peca ao administrador para criar sua conta)
 3. Preencha os campos:
    - **Usuario**: escolha um nome de usuario unico (ex: `meubot`)
@@ -94,7 +94,9 @@ A **API Key** e sua credencial de acesso programatico a plataforma.
      - Enviar Mensagens
 4. Clique em **"Criar Chave"**
 5. **COPIE A CHAVE IMEDIATAMENTE** - ela so sera exibida uma vez!
-  - A chave deve ser usada apenas em variável de ambiente (exemplo: WPP_API_KEY)
+
+- A chave deve ser usada apenas em variável de ambiente (exemplo: WPP_API_KEY)
+
 6. Guarde em local seguro
 
 > **Seguranca**: Nunca compartilhe sua API Key. Se suspeitar que foi comprometida, delete-a e crie uma nova.
@@ -226,15 +228,15 @@ Pressione **Ctrl+C** no terminal para encerrar o bot.
 
 ## Solucao de Problemas
 
-| Erro | Causa | Solucao |
-|------|-------|---------|
-| `Could not connect to...` | Servidor offline ou URL errada | Verifique se `SAAS_API_URL` esta correto |
-| `Invalid API Key (401)` | Chave invalida ou expirada | Gere uma nova API Key na plataforma |
-| `Session not found` | Nome da sessao incorreto | Verifique o `SESSION_NAME` (letras maiusculas/minusculas importam) |
-| `No read permission` | API Key sem permissao de leitura | Edite a API Key e marque "Ler Sessoes" |
-| `No send permission` | API Key sem permissao de envio | Edite a API Key e marque "Enviar Mensagens" |
-| `Session not connected` | WhatsApp desconectado | Reconecte a sessao escaneando o QR Code novamente |
-| `ModuleNotFoundError: requests` | Biblioteca nao instalada | Execute `pip install requests` |
+| Erro                              | Causa                            | Solucao                                                              |
+| --------------------------------- | -------------------------------- | -------------------------------------------------------------------- |
+| `Could not connect to...`       | Servidor offline ou URL errada   | Verifique se `SAAS_API_URL` esta correto                           |
+| `Invalid API Key (401)`         | Chave invalida ou expirada       | Gere uma nova API Key na plataforma                                  |
+| `Session not found`             | Nome da sessao incorreto         | Verifique o `SESSION_NAME` (letras maiusculas/minusculas importam) |
+| `No read permission`            | API Key sem permissao de leitura | Edite a API Key e marque "Ler Sessoes"                               |
+| `No send permission`            | API Key sem permissao de envio   | Edite a API Key e marque "Enviar Mensagens"                          |
+| `Session not connected`         | WhatsApp desconectado            | Reconecte a sessao escaneando o QR Code novamente                    |
+| `ModuleNotFoundError: requests` | Biblioteca nao instalada         | Execute `pip install requests`                                     |
 
 ## Dicas de Seguranca
 
@@ -250,7 +252,7 @@ Pressione **Ctrl+C** no terminal para encerrar o bot.
 
 ---
 
-<a name="english"></a>
+`<a name="english"></a>`
 
 # English
 
@@ -337,7 +339,9 @@ The **API Key** is your programmatic access credential to the platform.
      - Send Messages
 4. Click **"Create Key"**
 5. **COPY THE KEY IMMEDIATELY** - it will only be shown once!
-  - The key must be used only in an environment variable (example: WPP_API_KEY)
+
+- The key must be used only in an environment variable (example: WPP_API_KEY)
+
 6. Store it in a safe place
 
 > **Security**: Never share your API Key. If you suspect it has been compromised, delete it and create a new one.
@@ -469,15 +473,15 @@ Press **Ctrl+C** in the terminal to stop the bot.
 
 ## Troubleshooting
 
-| Error | Cause | Solution |
-|-------|-------|----------|
-| `Could not connect to...` | Server offline or wrong URL | Check if `SAAS_API_URL` is correct |
-| `Invalid API Key (401)` | Key invalid or expired | Generate a new API Key on the platform |
-| `Session not found` | Incorrect session name | Check `SESSION_NAME` (case-sensitive) |
-| `No read permission` | API Key without read permission | Edit the API Key and check "Read Sessions" |
-| `No send permission` | API Key without send permission | Edit the API Key and check "Send Messages" |
-| `Session not connected` | WhatsApp disconnected | Reconnect the session by scanning the QR Code again |
-| `ModuleNotFoundError: requests` | Library not installed | Run `pip install requests` |
+| Error                             | Cause                           | Solution                                            |
+| --------------------------------- | ------------------------------- | --------------------------------------------------- |
+| `Could not connect to...`       | Server offline or wrong URL     | Check if `SAAS_API_URL` is correct                |
+| `Invalid API Key (401)`         | Key invalid or expired          | Generate a new API Key on the platform              |
+| `Session not found`             | Incorrect session name          | Check `SESSION_NAME` (case-sensitive)             |
+| `No read permission`            | API Key without read permission | Edit the API Key and check "Read Sessions"          |
+| `No send permission`            | API Key without send permission | Edit the API Key and check "Send Messages"          |
+| `Session not connected`         | WhatsApp disconnected           | Reconnect the session by scanning the QR Code again |
+| `ModuleNotFoundError: requests` | Library not installed           | Run `pip install requests`                        |
 
 ## Security Tips
 
@@ -493,7 +497,7 @@ Press **Ctrl+C** in the terminal to stop the bot.
 
 ---
 
-<a name="espanol"></a>
+`<a name="espanol"></a>`
 
 # Espanol
 
@@ -580,7 +584,9 @@ La **API Key** es su credencial de acceso programatico a la plataforma.
      - Enviar Mensajes
 4. Haga clic en **"Crear Clave"**
 5. **COPIE LA CLAVE INMEDIATAMENTE** - solo se mostrara una vez!
-  - La clave debe usarse solo en variable de entorno (ejemplo: WPP_API_KEY)
+
+- La clave debe usarse solo en variable de entorno (ejemplo: WPP_API_KEY)
+
 6. Guardela en un lugar seguro
 
 > **Seguridad**: Nunca comparta su API Key. Si sospecha que fue comprometida, eliminela y cree una nueva.
@@ -711,15 +717,15 @@ Presione **Ctrl+C** en la terminal para detener el bot.
 
 ## Solucion de Problemas
 
-| Error | Causa | Solucion |
-|-------|-------|----------|
-| `Could not connect to...` | Servidor offline o URL incorrecta | Verifique si `SAAS_API_URL` es correcto |
-| `Invalid API Key (401)` | Clave invalida o expirada | Genere una nueva API Key en la plataforma |
-| `Session not found` | Nombre de sesion incorrecto | Verifique el `SESSION_NAME` (mayusculas/minusculas importan) |
-| `No read permission` | API Key sin permiso de lectura | Edite la API Key y marque "Leer Sesiones" |
-| `No send permission` | API Key sin permiso de envio | Edite la API Key y marque "Enviar Mensajes" |
-| `Session not connected` | WhatsApp desconectado | Reconecte la sesion escaneando el codigo QR nuevamente |
-| `ModuleNotFoundError: requests` | Biblioteca no instalada | Ejecute `pip install requests` |
+| Error                             | Causa                             | Solucion                                                       |
+| --------------------------------- | --------------------------------- | -------------------------------------------------------------- |
+| `Could not connect to...`       | Servidor offline o URL incorrecta | Verifique si `SAAS_API_URL` es correcto                      |
+| `Invalid API Key (401)`         | Clave invalida o expirada         | Genere una nueva API Key en la plataforma                      |
+| `Session not found`             | Nombre de sesion incorrecto       | Verifique el `SESSION_NAME` (mayusculas/minusculas importan) |
+| `No read permission`            | API Key sin permiso de lectura    | Edite la API Key y marque "Leer Sesiones"                      |
+| `No send permission`            | API Key sin permiso de envio      | Edite la API Key y marque "Enviar Mensajes"                    |
+| `Session not connected`         | WhatsApp desconectado             | Reconecte la sesion escaneando el codigo QR nuevamente         |
+| `ModuleNotFoundError: requests` | Biblioteca no instalada           | Ejecute `pip install requests`                               |
 
 ## Consejos de Seguridad
 
